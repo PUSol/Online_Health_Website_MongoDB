@@ -1,0 +1,515 @@
+"mastertable":insertMany([{
+	"email":"master@gmail.com",
+	"password":"master",
+	"admin":"admin",
+	"is_active":"true",
+	"is_created":"2000/05/14",
+	"is_updated":"2014/03/17",
+	"is_verfied":"false"
+}])
+"users":insertMany([
+{
+	"name":"Priyanshi",
+	"mobile_number":789456,"password":"zala",
+	"user_email":"zala@gmail.com",
+	"user_reffcode":"insta",
+	"user_location":{"latitude":"45.26","longitude":"12.45"},
+},
+{
+	"name":"Navyaa",
+	"mobile_number":715378,"password":"navyaa",
+	"user_email":"456@gmail.com",
+	"user_reffcode":"website",
+	"user_location":{"latitude":"12.56","longitude":"120.45"},
+},
+{
+	"name":"Prachi",
+	"mobile_number":452136,"password":"prachi",
+	"user_email":"453@gmail.com",
+	"user_reffcode":"whatsapp",
+	"user_location":{"latitude":"12.483","longitude":"157.25"},
+},
+{
+	"name":"Priyesha",
+	"mobile_number":488210,"password":"piyu",
+	"user_email":"140@gmail.com",
+	"user_reffcode":"fb",
+	"user_location":{"latitude":"56.12","longitude":"12.78"},
+},
+{
+	"name":"Avi",
+	"mobile_number":781359,"password":"avi",
+	"user_email":"avi@gmail.com",
+	"user_reffcode":"insta",
+	"user_location":{"latitude":"23.48","longitude":"75.28"},
+},
+{
+	"name":"Shinchan",
+	"mobile_number":546987,"password":"shinchan",
+	"user_email":"shinchan@gmail.com",
+	"user_reffcode":"quora",
+	"user_location":{"latitude":"45.65","longitude":"78.45"},
+},
+{
+	"name":"Zeel",
+	"mobile_number":128795,"password":"zeel",
+	"user_email":"zeel@gmail.com",
+	"user_reffcode":"insta",
+	"user_location":{"latitude":"85.23","longitude":"45.63"},
+},
+{
+	"name":"Priyansh",
+	"mobile_number":453218,"password":"ansh",
+	"user_email":"ansh@gmail.com",
+	"user_reffcode":"insta",
+	"user_location":{"latitude":"58.69","longitude":"45.78"},
+},
+{
+	"name":"Shanay",
+	"mobile_number":786954,"password":"shanay",
+	"user_email":"shany@gmail.com",
+	"user_reffcode":"insta",
+	"user_location":{"latitude":"85.46","longitude":"23.587"},
+}])
+"doctor":insertMany([
+{
+	"name":"Divi",
+	"mobile_number":483155,
+	"email":"doctor@gmail.com",
+	"password":"doctor",
+	"specialization":"neuro"
+},
+{
+	"name":"Shrivas",
+	"mobile_number":789654,
+	"email":"doctor1@gmail.com",
+	"password":"doctor1",
+	"specialization":"ortho"
+},
+{
+	"name":"Priya",
+	"mobile_number":231789,
+	"email":"doctor2@gmail.com",
+	"password":"doctor2",
+	"specialization":"Gaynac"
+},
+{
+	"name":"Vivaan",
+	"mobile_number":785496,
+	"email":"doctor3@gmail.com",
+	"password":"doctor3",
+	"specialization":"Cardiac"
+},
+{
+	"name":"Civa",
+	"mobile_number":235698,
+	"email":"doctor4@gmail.com",
+	"password":"doctor4",
+	"specialization":"Lung Specialist"
+},
+{
+	"name":"Nini",
+	"mobile_number":789654,
+	"email":"doctor5@gmail.com",
+	"password":"doctor5",
+	"specialization":"Kidney Specialist"
+},
+{
+	"name":"Asgard",
+	"mobile_number":856974,
+	"email":"doctor6@gmail.com",
+	"password":"doctor6",
+	"specialization":"Cancer Specialist"
+},
+{
+	"name":"Fena",
+	"mobile_number":854976,
+	"email":"doctor7@gmail.com",
+	"password":"doctor7",
+	"specialization":"Dentist"
+}
+])
+
+"medicines":insertMany([{
+	"medi_company" : "Novartis India Ltd.",
+	"medi_name": "myfortic",
+	"medi_price" : 692.50,
+	"medi_packsize" : "10 tablets",
+	"medi_info" : "Prevention of organ rejection",
+	"medi_prescription" :"prescription image",
+	"medi_vitamin" : ([{"Vitamin A-Z" : {vit atoz id}, "Multi Vitamins" : {product id}, "Mineral Supplements" : {vit id}}])
+	"medi_firstaidcare" : ([{"Betadin 10% solution", "Dettol", "Mega heal Gel", "Burnol", "Bandaid", "Savlon", "Gauze swab"}])
+	"medi_doctorscorner" : ([{"Gloves" : {Product ID}, "Sanitizer & Handwash" : {Product ID}, "Thermometers" : {Product ID}, "PPE Kits" : {Product ID}, "Disinfectant" : {Product ID}, "Masks" : {Product ID}}])
+	}])
+
+"health_concern" : insertMany ([{
+	"hcon_respcare" : {"oxygen concentrators & cans" : {Product ID}, "Pulse Oximeter" : {Product ID}, "Nasal Sprays" : {Product ID}, "Nebulizers & Vaporisers",{product id},"Cpap and Bipap machines":{product id}},
+	"hcon_bonejointandmusclecare" : "{"Osteo_arthiritis":{product id},"osteoporosis":{product id},"Rheumatoid_arthiris":{product id},"Lumbara_spondylosis":{product id},"cervical_spondylosis":{product id}},
+	"hcon_diabetescare" : {product id},
+	"hcon_painrelief" :"([{"ayurveda_products":{product id},{"gel and sprays"}:{product id},{"massage oil"}:{product id},{"suppliments":{product id}}",
+	"hcon_cardiaccare" :"{"Omega and fish oil":{product id}},{"Bp monitors":{product id}},{"Homeopathic cardiac care":{product id},{"Ayurvedic cardiac care":{product id}}}}",
+	"hcon_kidneycare" : {product id},
+	"hcon_stomachcare" : "{"General digestion/Indigestion":{Product id}},{"Pre and Peobiotics":{product id}},{"Acidity":{product id}},{"Gas":{product id}},{"Costipation":{product id}},{"Loose motion":{product id}}}",
+	"hcon_livercare" : {product id},
+	"hcon_quitssmoking" : {product id},
+	"hcon_pilesfissuresandfistula" : {product id},
+	"hcon_mentalwellness" : {product id},
+	"hcon_eyecare" : {product id},
+	"hcon_cold&cough" : {product id},
+	"hcon_fever" : {product id}}])
+	
+"Ayurveda":insertMany([{"Shop by Concern":{FK HCon}},
+					{"Populor Catagories":{Hproducts id}},
+					{"Explore brands":{products id}},
+					{advertisement id}}])
+
+"Protein Suppliments":insertMany([{"Whey":{Product id}},
+								{"Mass Gainers":{Product id}},
+								{"Workout Essentials":{Product id}},
+								{"Fat Burners":{Product id}},
+								{"Nutritional Values":{product id}},
+								{"Ceratine":{Product id}},{adv id}])
+
+"Immunity Boosters":insertMany([{"Anti oxi suppliments":{product id}},
+								{"Chawanprash":{product id}},
+								{"Vitamin C":{products id}},
+								{"Herbal Juices":{Product id}},
+								{Adv id},
+								{"Ayurvedic Suppliments":{Product Id}}])
+
+"Explore Catagories":insertMany([{"Oral Care":{product id}},
+								{"Men care":{product id}},
+								{"Women care":{product id}},
+								{"Food and Drinks":{FK product id}},
+								{"Ayurveda":{FK product id}},
+								{"Vitamins":{FK product id}}])
+
+"Lab Tests":insertMany([{"Home health checkup":{adv id}},
+						{"Popular health checkups":{adv id}},
+						{"Pathology tests":{Adv id}},
+						{"Featured labs":{adv id}},
+						{"Radiology test":{product id}},
+						{"Full body checkup":{adv id}},
+						{"Test with Prescription":{adv id}},
+						{adv id}])
+
+"Doctor Consultation":insertMany([{"Consult now":{Doc id}},
+								{"Consult in oneclick":{doc id}},{Adv id}])
+
+"Respiratory care":insertMany([{"Respiratory care prevention":{"hcon_respcare":{FK product id}}},
+								{"Yt_videos"}])
+
+"Vitamins":insertMany([{"Multi":" {"Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D", "Vitamin K"}"},
+						{"Calcium and Minerals":{"Zinc", "Calcium", "Iron", "Magnesium", "Potassium", "Selenium", "Iodine", "Copper"}},
+						{"Vitamins A-Z":{"Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D", "Vitamin K","Vitamin Z"}},
+						{"Immunity Booster":{Product id}},
+						{"Omega and Fish Oil":{Product id}}])
+
+"Health food and drinks":insertMany([{"Herbal Juices":{product id}},
+										{"Apple cidarvinergar":{product id}},
+										{"Breakfast cereals":{product id}},
+										{"Greentea and Herbal tea":{product id}},
+										{"Peanut Butter":{product id}},{adv id}])
+
+"Offers":insertMany([{"Deals of the day":{product id}},
+					{"medicine":{product id}},
+					{"Health Products":{product id}},
+					{"Old Doc Consultations":{product id}},
+					{"Care Plan":{Product id}},
+					{"Care Plan":{product id}},
+					{"Upto 50%":{product id}},
+					{"Upto 30%":{product id}},
+					{"Upto 10%":{products id}},
+					{"Combo deals":{product id}},
+					{"Buy one get one":{product id}}])
+
+"Business Partnerships":([{"Insurance":"Mac Bupa","Bajaj","HDFC Life","HDFC Ergo","Aditya Birla","MD India","ICC Lombard"},
+						{"Diagnosis Labs":"Doctor Lal Pathlabs","Thyro Care","Path Care","Mahajan Imaging"},
+						{"Knowledge Partnerships":"Patanjali","Farm Health"},{"Banks":"ICICI","SBI"}])
+
+"Health Products":([{"Covid Essentials":{"Disinfectants:{product id}",
+										{"Self Test Kit":{product id},{Immunity boosters fk},
+										{"Masks":{Porduct id}},
+										{"Thermometers":{product id}},
+										{"Sanitizers and Handwash":{health_concern id}},
+										{"Cough and cold":{cough and cold id}},
+										{"Ayurvedic":{Ayurveda id}},
+										{"Devices":{Respretory id}}},
+										{"Featured":{product id}},
+										{"Vitamins and Nutritions":{Vita id}},
+										{"Diabetes":{product id}},
+										{"Healthcare devices":{healcare id}},
+										{"Personal Care":{product id}},
+										{"Health Conditions":{health_concern id}},
+										{"Ayurveda":{ayurveda id}},
+										{"Homeopathy":{homeo id}},
+										{"Airpurifiers":{Product id}},
+										{"Weight Management":{food and drinks id}},
+										{"Combo Deals":{product id}},
+										{"Mobility Equipments":{product id}},
+										{"Offers":{offers id}},{adv id}}
+						}
+					]
+				)
+
+"Masks":insertMany([{"Surgical":{health products id}},{"N95":{Health pro id}},{"Face Shield":{health pro id}},{"Novalve":{health pro id}},{"Children":{health pro id}},{"N99":{health pro id}}])
+
+"Healthcare Devices":insertMany([{"Covid Essentials":{covid id}},{"Masks":{mask id}},{"Respiratory Care":{resp care id}},{"Thermometers":{product id}},{"Supports and Braces":{Product id}},{"Heating Aids":{products id}},{"Body Massager":{product id}},{adv id}])
+
+"Healthy Diabeticscare":insertMany([{"Shop by Catagories":{product id}},{"Ayurvedic Medicines":{Ayurveda id}},{"Juice and Vinegers":{product id}},{"Homeopathy Medicines":{Homeopathy id}},{"Syringe and Pens":{Product id}},{"Test Strips and Lancets":{Product id}},{"Sugar subs":{product id}},{"Blood Glucose Monitor":{Product id}},{"Vitamins and Antioxidents":{product id}},{"Diabetic food health":{food and drinks id}},{adv id}])
+
+"Support and Braces":insertMany([{"Neck and Shoulders":{Product id}},{"Knee and Leg":{product id}},{"Hand and Wrist Braces":{product id}},{"Ankles and Foot":{product id}},{"Arm and Elbow":{product id}},{"Back and Abdomen":{product id}},{"Cervic Pressionsup and Sleeves":{prodcut id}},{"Heels":{product id}},{adv id}])
+
+"Contact us":insertMany([{"login":{user id}},{"Signup":{"user id"}},{"Chat Right Now":{Doc consultation id}},{"Corporate Queries":{Doc consultation id}}])
+
+"Covid Support":insertMany([{"RTPCR":lab test id},{"Anti-bodies":{lab test}},{"Homecare Essentials":{product id}},{"Complete Homecare":{product id}},{"Language":{"English","Hindi","Gujarati","Marathi","Rajasthani","Punjabi","Tamil","Kannand","Bengoli"}},{"Ebooks":{"Covid 3.0","Omicron","1mg Quick Pick"},{"Article on Covid":{article id}},{"Helpline Numbers":{"789123","153487","458731","438785","128734"}},{"Youtube":{youtube id}},{Adv id}])
+
+"Articles":insertMany([{"Name":"Health Aids"},{"Covid":"Covid Aids"},{adv id}])
+
+"Youtube":insertMany([{"Videos":Yt_videos},{adv id}])
+
+"Homeopathy":([{"Haircare":{product id}},{"Funfal Infection":{product id}},{"Diabeties":{"Juices and Vinegars":{product id}},{"Super foods":{product id}}},{"Ayurveda":{{"Top Brands":{product id}},{"Health Concerns":{products}},{"Unani Medicines":{product id}}}},{"Hypothyroidism":{product id}},{"Obesity":{product id}},{"Allergichinitis":{product id}},{adv id}])
+
+"Healthy Salts":([{"Berberi Saqui Folium":{product id}},{"Berberi Vulgaris":{product id}},{"Nuxvomica":{product id}},{"Arnica Montana":{Products}},{"Syzygium Jambolanum":{product}},{"Silicea":{product id}},{"Thyroidium""{product id}},{"Cineraria Maritima":{product id}},{"Photol Accaberry":{product id}},{"Diabetics care":{}product id},{adv id}])
+
+"Everyday Essentials":insertMany([{"Disinfectants":{product id}},{"Sanitizers and Handwash":{product id}},{"Mosquito Repeallent":{produc id}}],{"Sanitizing wipes":{product id}},{"Contact Lens Solutions":{Product id}},{"Other Daily Need Products":{product id}}])
+
+"Terms and Conditons":insert([{"Details of T&C":{"Details of T&C"}}])
+
+"Jobs":insertMany([{"Jobs":{"Ward"}},{"Enter job title":{"Nurse"}},{"Department":{Neuro}},{"location":{"Berlin"}},{"Experience":{"5years"}},{"Employee Type":{"Contract"}},{"Current Openings":{"Jr.Accountant"}}])
+
+"Health Records":insertMany([{"Name of user":{Priyanshi}},{"Age":{22}},{"lab tests":{lab id}},{adv id}])
+
+"Search":insertMany([{"Trending":{product id}},{"Mic":{"user recording"}}])
+
+"Care plans":insertMany([{"Explore":{insurance id}},{"Active Plans Benefits":{insurance id}},{"Use benifits":{insurance id}},{"Additional Gifts":{product id}},{"lab tests":{lab id}},{"Consultation":{consult id}},{"Care monitor health":{health records id}},{"Care faqs":{user database}},{"Medicine":{medicine id}},{"Delivery":{delivery id}},{adv id}])
+
+"Skin Care":insertMany([{"Facewash":{product id}},{"Face Mosturiser":{product id}},{"Facial Kit & Sheet Masks":{product id}},{"Face Serum & Oils":{product id}},{"Cleansers":{product id}},{"Makeup removals":{product id}},{"Scrubs and Exfoilation":{product id}},{"Lipcare":{product id}},{"Toner & Astringents":{product id}},{"Shop by skin concern":{product id}},{adv id}])
+
+"Bodycare":insertMany([{"Care Lotion":{product id}},{"Talcum Powder":{product id}},{"Bodywash & more":{product id}},{"Oils":{product id}},{"Sanitizers & Handwashs":{product id}},{"Sunscreen":{Product id}},{adv id}])
+
+"Current Opneings":insertMany([{"Job Title":{"Doctors","Nurse","Data Analyst","Accountant","Delivery",}},{"Department":{"Neuro","Cardiac","General","Physio","Ortho","Gynac","Pediatric"}},{"Location":{"Ahemadabad","Mumbai","Delhi","Himanchal","Bihar","Jaipur","Pune","Nagpur","Surat"}},{"Employee Type":{"Part Time","Full Time"}},{"Job Postponed":{"2000/5/8","2013/3/4","2018/12/6","2021/11/19"}}])
+
+"Delivery":insertMany([{"Type":{}},{"Free shipping":{"state","Country","Overseas"}},{"Rapid":{"In an hour","In a day","2-3 days","Week"}},{"Without care plan":{Care plans id}},{adv id}])
+
+"Advertisement":insertMany([{"advertisement":{Products name}},{"offers":{offers id}}])	
+
+"Popular Catagories":insertMany([{"Ayurveda":{product id}},{"Vitamins":{vitamins id}},{"Healthcare Devices":{Health care id}},{"Homeopathy":{homeopathy id}},{"Diabetes Care":{Healthy diabetics id}},{"Skin Care":{"Elderly Care":{elderly care}},{"Protein Suppliemnts":{protein supp id}},{"Health food & drinks":{food drinks id}}},{"Immunity Boosters":{immunity boosters id}},{adv id}])
+
+"Elderly Care":insertMany([{"Body Massager":{"Health diab id"},{"Pain Relief":{product id}},{"Living & Safelty Aids":{product id}},{"Mobility Equipmemts":{product id}},{"Orthopedic Supports":{product id}},{"Adult Diapers":{product id}},{adv id}}])
+
+"Shop By Ailments":insertMany([{"Osteoarthiritis":{product id}},{"Rhematoidarthirithis":{product id}},{"Ayurdea Cardiac Care":{product id}},{"Diabeties":{product id}},{"Constipation":{product id}},{"Bone Joint Muscle Care":{product id}}}])
+
+"Health Snacks":insertMany([{"Snacks & Energy Bar":{product id}},{"Cookies":{product id}},{"Peanut Butter":{product id}},{"Cereals":{product id}},{"Honey":{product s id}},{"Seeds":{Product id}},{"Dry Fruits":{product id}},{"Refreshing Juices":{product id}},{adv id}])
+
+"Products":insertMany([
+	{"Medicines":
+	
+	{
+	"Name":"OmezD",
+	"Price":169,
+	"Company":"Dr. Reddy",
+	"Tablets":12,
+	"Grams":"20mg"
+	},
+	{
+		"Name":"Moxate CV",
+	"Price":116,
+	"Company":"Cachet Pharma",
+	"Tablets":6,
+	"Grams":"500mg"
+	},
+	{
+		"Name":"Limcee",
+	"Price":23,
+	"Company":"Abott",
+	"Tablets":12,
+	"Grams":"100mg"
+	},
+	{
+	"Name":"Tragenta",
+	"Price":375,
+	"Company":"Baehringer",
+	"Tablets":10,
+	"Grams":"5mg"
+	},
+	{
+	"Name":"Nabicard",
+	"Price":117,
+	"Company":"Torrent Pharma",
+	"Tablets":10,
+	"Grams":"5mg"
+	},
+	{
+	"Name":"Xykaa Bd",
+	"Price":200,
+	"Company":"Troikaa",
+	"Tablets":8,
+	"Grams":"1000mg"	
+	},
+	{
+	"Name":"Sea Cod",
+	"Price":320,
+	"Company":"Sanofi",
+	"Tablets":110,
+	"Grams":"300mg"
+	},
+	{
+	"Name":"ChestoN Cold",
+	"Price":42,
+	"Company":"Cipla",
+	"Tablets":10,
+	"Grams":"325mg"
+	},
+	{
+	"Name":"Zinco",
+	"Price":65,
+	"Company":"Univentis Menti Care",
+	"Tablets":10,
+	"Grams":"137.2mg"
+	},
+	{
+	"Name":"Dolonex Dt",
+	"Price":196,
+	"Company":"Pfizerr",
+	"Tablets":15,
+	"Grams":"20mg"
+	},
+	{
+	"Name":"Cafipar",
+	"Price":17,
+	"Company":"Unison Pharma",
+	"Tablets":10,
+	"Grams":"530mg"
+	},
+	{
+	"Name":"Dolo 650",
+	"Price":112,
+	"Company":"Micro labs ltd",
+	"Tablets":15,
+	"Grams":"650mg"
+	},
+	{
+	"Name":"Cilacar",
+	"Price":118,
+	"Company":"JB Chemicals and Pharma",
+	"Tablets":10,
+	"Grams":"20mg"
+	}
+
+},
+{"Food & Drinks":
+
+	{
+	"Name":"Aloevera Juice",
+	"Price":45,
+	"Company":"Patanjali",
+	"Grams":"50g"
+	},
+	{
+	"Name":"Safi",
+	"Price":110,
+	"Company":"Dabur",
+	"Grams":"200g"
+	},
+	{
+		"Name":"Chawanprash",
+	"Price":120,
+	"Company":"Dabur",
+	"Grams":"250g"
+	},
+	{
+		"Name":"Amla Juice",
+	"Price":130,
+	"Company":"Patanjali",
+	"Grams":"500g"
+	},
+	{
+	"Name":"Glucon D",
+	"Price":309,
+	"Company":"Dabur",
+	"Liter":"1kg"
+	},
+	{
+		"Name":"Tulsi Juice",
+	"Price":287,
+	"Company":"Basic Ayurveda",
+	"Liter":"1000ml"
+	},
+	{
+		"Name":"Karela Jamun Juice",
+	"Price":266,
+	"Company":"Axion",
+	"Liter":"1lr"
+	},
+	{
+		"Name":"Mint Veda Noni Juice",
+	"Price":449,
+	"Company":"Mint Veda",
+	"Liter":"1000ml"
+	},
+	{
+		"Name":"Trifala Juice"
+	"Price":225,
+	"Company":"Ayurveda Bhavan",
+	"Liter":"1lr"
+	},
+	{
+		"Name":"Wheatgrass Juice",
+	"Price":440,
+	"Company":"Kapiva",
+	"Liter":"1lr"
+	},
+	{
+		"Name":"Kiwi Aloevera Juice",
+	"Price":119,
+	"Company":"Alo Frut",
+	"Liter":"1lt"
+	}
+},
+
+{"Combos":
+	{
+		"Combo Items":"Aloevera Juice & Diabetis tables",
+		"Pack of":2,
+		"Discounted Price":"500"
+	},
+	{
+		"Combo Items":"Friends Adult Diaper & Nivea Cream",
+		"Pack of":2,
+		"Discounted Price":"739"
+	},
+	{
+		"Combo Items":"Shri Shri Tatva Honey & 1mg High Fiber",
+		"Pack of":2,
+		"Discounted Price":"514"
+	},
+	{
+		"Combo Items":"One Touch Vario 50 Test Strip & One Touch Delica Plus 25 lancet",
+		"Pack of":3,
+		"Discounted Price":"1342"
+	},
+	{
+		"Combo Items":"Zandu Orthovedic oil & 1mg Glucosamine HCl",
+		"Pack of":2,
+		"Discounted Price":"406"
+	},
+	{
+		"Combo Items":"Dettol Aloe Foaming Handwash 250ml & Refill 200ml",
+		"Pack of":2,
+		"Discounted Price":"159"
+	},
+	{
+		"Combo Items":"Flamingo Knee Cap & Volini Joint Expert",
+		"Pack of":2,
+		"Discounted Price":"361"
+	}
+}])
+
+
+	
+	
+	
+
+
+
